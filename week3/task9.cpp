@@ -1,0 +1,60 @@
+#include <iostream>
+using namespace std;
+
+main(){
+int n1;
+int n2;
+int n3;
+int n4;
+int n5;
+int n6;
+int n7;
+int n8;
+int n9;
+int n10;
+int n11;
+int n12;
+int n13;
+int n14;
+int n15;
+int sum;
+int mul;
+int sub;
+int answer;
+
+cout << "Enter the number 1: ";
+cin >> n1;
+cout << "Enter the number 2: ";
+cin >> n2;
+cout << "Enter the number 3: ";
+cin >> n3;
+cout << "Enter th number 4: ";
+cin >> n4;
+cout << "Enter the number 5: ";
+cin >> n5;
+cout << "Enter the number 6: ";
+cin >> n6;
+cout << "Enter the number 7: ";
+cin >> n7;
+cout << "Enter the number 8: ";
+cin >> n8;
+cout << "Enter the number 9: ";
+cin >> n9;
+cout << "Enter the number 10: ";
+cin >> n10;
+cout << "Enter the number 11: ";
+cin >> n11;
+cout << "Enter the number 12: ";
+cin >> n12;
+cout << "Enter the number 13: ";
+cin >> n13;
+cout << "Enter the number 14: ";
+cin >> n14;
+cout << "Enter the number 15: ";
+cin >> n15;
+sum= n1 + n2 + n3 + n4 + n5;
+mul=n6 * n7 * n8 * n9 * n10;
+sub= n11 - n12 - n13 - n14 - n15;
+answer= (sum + mul) - sub;
+cout << "total is: " << answer;
+}
